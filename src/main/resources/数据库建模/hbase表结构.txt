@@ -1,0 +1,8 @@
+a、商品表
+create 'learing_flink:dajiangtai_goods',{NAME=>'F',BLOCKCACHE=>true,BLOOMFILTER=>'ROW',DATA_BLOCK_ENCODING => 'PREFIX_TREE', BLOCKSIZE => '65536'}
+
+
+b、订单表
+create 'learing_flink:dajiangtai_orders',{NAME=>'0',BLOCKCACHE=>true,BLOOMFILTER=>'ROW',DATA_BLOCK_ENCODING => 'PREFIX_TREE', BLOCKSIZE => '65536'}
+
+
